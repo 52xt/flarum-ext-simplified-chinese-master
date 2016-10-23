@@ -9,7 +9,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "beta"
+            "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
             "title": "Chinese",
