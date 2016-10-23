@@ -1,0 +1,26 @@
+avatar4eg-users-list:
+  admin:
+    nav:
+      users_button: => avatar4eg-users-list.ref.users_title
+      users_text: 查看用户列表
+    page:
+      about_text:  查看注册用户列表。
+      online_text: => core.forum.user.online_text
+      load_more_button: => core.ref.load_more
+      list_title: => avatar4eg-users-list.ref.users_title
+      mail_all_button: 发信给全部用户
+    modal_mail:
+      title_text: 发信给
+      title_all_text: 全部用户
+      email_label: 收件人
+      subject_label: 信件标题
+      default_subject: => avatar4eg-users-list.ref.default_subject
+      message_label: 信息内容
+      submit_button: 发送
+
+  email:
+    default_subject: => avatar4eg-users-list.ref.default_subject
+
+  ref:
+    default_subject: 论坛管理信息
+    users_title: 用户

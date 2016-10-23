@@ -1,0 +1,8 @@
+davis-customfooter:
+  admin:
+    settings:
+      title: 自定义页脚配置
+      customtext: 页脚内容
+      heightofheader: 页脚高度
+      cssofheader: CSS
+      jsofheader: JS

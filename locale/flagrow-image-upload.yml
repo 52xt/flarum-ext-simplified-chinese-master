@@ -1,0 +1,49 @@
+flagrow-image-upload:
+    forum:
+        buttons:
+            attach: 上传
+        states:
+            loading: 上传中
+            success: 上传成功
+            error: 上传失败
+    admin:
+        permissions:
+            upload_images_label: 上传图片
+        upload_methods:
+            local: 本地
+            imgur: Imgur
+            cloudinary: Cloudinary            
+        labels:
+            upload_method: 上传方式
+            preferences:
+                title: 常规偏好
+                max_file_size: 最大文件大小（KB）            
+            resize:
+                title: 图片大小
+                toggle: 调整图片大小
+                max_width: 最大宽度
+                max_height: 最大高度
+            imgur:
+                title: Imgur 设置
+                client_id: Client-ID
+            local:
+                title: 本地存储设置
+                cdn_url: CDN URL (前缀文件)  
+            cloudinary:
+                title: Cloudinary 设置
+                cloud_name: Cloud name
+                api_key: Api key
+                api_secret: Api secret                
+        buttons:
+            save: 保存设置
+        help_texts:
+            image-upload: 图片上传
+            description: >
+                设置图片上传服务及偏好
+            upload_method: >
+                在此处你可以选择上传图片的方式
+                当你选择后相应的设置将会显示出来
+            resize: >
+                是否要在上传前就调整图片大小
+                你可以设置最大宽度与最大高度，以 px 为单位
+                调整大小不会变更图片长宽比例

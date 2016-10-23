@@ -1,0 +1,9 @@
+flarum-best-answer:
+    forum:
+        this_best_answer: "选择最佳答案"
+        remove_best_answer: "撤销最佳答案"
+        header_best_answer: "最佳答案「帖子所有者的选择」"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      best_answer: '最佳答案'
